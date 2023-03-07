@@ -1,0 +1,62 @@
+body {
+  background-color: #2e2e3a;
+  color: #dbbca7;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 2rem;
+}
+
+button {
+  font-size: 25px;
+  margin-top: 2rem;
+  background-color: #de9151;
+  border-color: #bc5d2e;
+  border-width: 5px;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+}
+
+.countContainer {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 5rem;
+  font-size: 30px;
+}
+
+.tokenContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#totalContainer {
+  margin-left: 5rem;
+}
+
+.key,
+.key ul {
+  display: flex;
+  align-items: center;
+}
+
+.key ul {
+  list-style: none;
+  gap: 2rem;
+}
+
+.description {
+  margin-bottom: 6rem;
+  font-size: 1.25rem;
+}

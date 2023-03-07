@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 2</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Easy Currency</h1>
+      <p class="description">
+        This currency calculator will show you the least amount of coins needed
+        for any given amount!
+      </p>
+      <div class="countContainer">
+        <div id="token0Container" class="tokenContainer">
+          <p id="token0">0</p>
+          <p>Xemari</p>
+        </div>
+        <div id="token1Container" class="tokenContainer">
+          <p id="token1">0</p>
+          <p>Urin</p>
+        </div>
+        <div id="token2Container" class="tokenContainer">
+          <p id="token2">0</p>
+          <p>Krumle</p>
+        </div>
+        <div id="token3Container" class="tokenContainer">
+          <p id="token3">0</p>
+          <p>Friina</p>
+        </div>
+        <div id="token4Container" class="tokenContainer">
+          <p id="token4">0</p>
+          <p>Dravdo</p>
+        </div>
+        <div id="totalContainer" class="tokenContainer">
+          <p id="total">0</p>
+          <p>Total</p>
+        </div>
+      </div>
+      <div class="key">
+        <h2>Key:</h2>
+        <ul>
+          <li>Xemari - 20</li>
+          <li>Urin - 10</li>
+          <li>Krumle - 5</li>
+          <li>Friina - 2</li>
+          <li>Dravdo - 1</li>
+        </ul>
+      </div>
+      <button onclick="tokenAmounts()">Calculate!</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
